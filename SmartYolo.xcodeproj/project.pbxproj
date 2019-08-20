@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65CD040B230AD9520069F223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD040A230AD9520069F223 /* AppDelegate.swift */; };
+		65CD040D230AD9520069F223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD040C230AD9520069F223 /* ViewController.swift */; };
+		65CD0410230AD9520069F223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CD040E230AD9520069F223 /* Main.storyboard */; };
+		65CD0413230AD9520069F223 /* SmartYolo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65CD0411230AD9520069F223 /* SmartYolo.xcdatamodeld */; };
+		65CD0415230AD9530069F223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CD0414230AD9530069F223 /* Assets.xcassets */; };
+		65CD0418230AD9530069F223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CD0416230AD9530069F223 /* LaunchScreen.storyboard */; };
+		65CD0423230AD9530069F223 /* SmartYoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD0422230AD9530069F223 /* SmartYoloTests.swift */; };
+		65CD042E230AD9530069F223 /* SmartYoloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD042D230AD9530069F223 /* SmartYoloUITests.swift */; };
+		65CD043C230ADA860069F223 /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 65CD043B230ADA860069F223 /* YOLOv3.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65CD041F230AD9530069F223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65CD03FF230AD9520069F223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CD0406230AD9520069F223;
+			remoteInfo = SmartYolo;
+		};
+		65CD042A230AD9530069F223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65CD03FF230AD9520069F223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CD0406230AD9520069F223;
+			remoteInfo = SmartYolo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65CD0407230AD9520069F223 /* SmartYolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartYolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CD040A230AD9520069F223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65CD040C230AD9520069F223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65CD040F230AD9520069F223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65CD0412230AD9520069F223 /* SmartYolo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartYolo.xcdatamodel; sourceTree = "<group>"; };
+		65CD0414230AD9530069F223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65CD0417230AD9530069F223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65CD0419230AD9530069F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CD041E230AD9530069F223 /* SmartYoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartYoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CD0422230AD9530069F223 /* SmartYoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartYoloTests.swift; sourceTree = "<group>"; };
+		65CD0424230AD9530069F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CD0429230AD9530069F223 /* SmartYoloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartYoloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CD042D230AD9530069F223 /* SmartYoloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartYoloUITests.swift; sourceTree = "<group>"; };
+		65CD042F230AD9530069F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CD043B230ADA860069F223 /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65CD0404230AD9520069F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD041B230AD9530069F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD0426230AD9530069F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65CD03FE230AD9520069F223 = {
+			isa = PBXGroup;
+			children = (
+				65CD0409230AD9520069F223 /* SmartYolo */,
+				65CD0421230AD9530069F223 /* SmartYoloTests */,
+				65CD042C230AD9530069F223 /* SmartYoloUITests */,
+				65CD0408230AD9520069F223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65CD0408230AD9520069F223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65CD0407230AD9520069F223 /* SmartYolo.app */,
+				65CD041E230AD9530069F223 /* SmartYoloTests.xctest */,
+				65CD0429230AD9530069F223 /* SmartYoloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65CD0409230AD9520069F223 /* SmartYolo */ = {
+			isa = PBXGroup;
+			children = (
+				65CD043B230ADA860069F223 /* YOLOv3.mlmodel */,
+				65CD040A230AD9520069F223 /* AppDelegate.swift */,
+				65CD040C230AD9520069F223 /* ViewController.swift */,
+				65CD040E230AD9520069F223 /* Main.storyboard */,
+				65CD0414230AD9530069F223 /* Assets.xcassets */,
+				65CD0416230AD9530069F223 /* LaunchScreen.storyboard */,
+				65CD0419230AD9530069F223 /* Info.plist */,
+				65CD0411230AD9520069F223 /* SmartYolo.xcdatamodeld */,
+			);
+			path = SmartYolo;
+			sourceTree = "<group>";
+		};
+		65CD0421230AD9530069F223 /* SmartYoloTests */ = {
+			isa = PBXGroup;
+			children = (
+				65CD0422230AD9530069F223 /* SmartYoloTests.swift */,
+				65CD0424230AD9530069F223 /* Info.plist */,
+			);
+			path = SmartYoloTests;
+			sourceTree = "<group>";
+		};
+		65CD042C230AD9530069F223 /* SmartYoloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65CD042D230AD9530069F223 /* SmartYoloUITests.swift */,
+				65CD042F230AD9530069F223 /* Info.plist */,
+			);
+			path = SmartYoloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65CD0406230AD9520069F223 /* SmartYolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CD0432230AD9530069F223 /* Build configuration list for PBXNativeTarget "SmartYolo" */;
+			buildPhases = (
+				65CD0403230AD9520069F223 /* Sources */,
+				65CD0404230AD9520069F223 /* Frameworks */,
+				65CD0405230AD9520069F223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartYolo;
+			productName = SmartYolo;
+			productReference = 65CD0407230AD9520069F223 /* SmartYolo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65CD041D230AD9530069F223 /* SmartYoloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CD0435230AD9530069F223 /* Build configuration list for PBXNativeTarget "SmartYoloTests" */;
+			buildPhases = (
+				65CD041A230AD9530069F223 /* Sources */,
+				65CD041B230AD9530069F223 /* Frameworks */,
+				65CD041C230AD9530069F223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CD0420230AD9530069F223 /* PBXTargetDependency */,
+			);
+			name = SmartYoloTests;
+			productName = SmartYoloTests;
+			productReference = 65CD041E230AD9530069F223 /* SmartYoloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65CD0428230AD9530069F223 /* SmartYoloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CD0438230AD9530069F223 /* Build configuration list for PBXNativeTarget "SmartYoloUITests" */;
+			buildPhases = (
+				65CD0425230AD9530069F223 /* Sources */,
+				65CD0426230AD9530069F223 /* Frameworks */,
+				65CD0427230AD9530069F223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CD042B230AD9530069F223 /* PBXTargetDependency */,
+			);
+			name = SmartYoloUITests;
+			productName = SmartYoloUITests;
+			productReference = 65CD0429230AD9530069F223 /* SmartYoloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65CD03FF230AD9520069F223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = linwei;
+				TargetAttributes = {
+					65CD0406230AD9520069F223 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					65CD041D230AD9530069F223 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 65CD0406230AD9520069F223;
+					};
+					65CD0428230AD9530069F223 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 65CD0406230AD9520069F223;
+					};
+				};
+			};
+			buildConfigurationList = 65CD0402230AD9520069F223 /* Build configuration list for PBXProject "SmartYolo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65CD03FE230AD9520069F223;
+			productRefGroup = 65CD0408230AD9520069F223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65CD0406230AD9520069F223 /* SmartYolo */,
+				65CD041D230AD9530069F223 /* SmartYoloTests */,
+				65CD0428230AD9530069F223 /* SmartYoloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65CD0405230AD9520069F223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD0418230AD9530069F223 /* LaunchScreen.storyboard in Resources */,
+				65CD0415230AD9530069F223 /* Assets.xcassets in Resources */,
+				65CD0410230AD9520069F223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD041C230AD9530069F223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD0427230AD9530069F223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65CD0403230AD9520069F223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD040D230AD9520069F223 /* ViewController.swift in Sources */,
+				65CD0413230AD9520069F223 /* SmartYolo.xcdatamodeld in Sources */,
+				65CD043C230ADA860069F223 /* YOLOv3.mlmodel in Sources */,
+				65CD040B230AD9520069F223 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD041A230AD9530069F223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD0423230AD9530069F223 /* SmartYoloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD0425230AD9530069F223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD042E230AD9530069F223 /* SmartYoloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65CD0420230AD9530069F223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CD0406230AD9520069F223 /* SmartYolo */;
+			targetProxy = 65CD041F230AD9530069F223 /* PBXContainerItemProxy */;
+		};
+		65CD042B230AD9530069F223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CD0406230AD9520069F223 /* SmartYolo */;
+			targetProxy = 65CD042A230AD9530069F223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65CD040E230AD9520069F223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65CD040F230AD9520069F223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65CD0416230AD9530069F223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65CD0417230AD9530069F223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65CD0430230AD9530069F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65CD0431230AD9530069F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65CD0433230AD9530069F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartYolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartYolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65CD0434230AD9530069F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartYolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartYolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65CD0436230AD9530069F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartYoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartYoloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartYolo.app/SmartYolo";
+			};
+			name = Debug;
+		};
+		65CD0437230AD9530069F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartYoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartYoloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartYolo.app/SmartYolo";
+			};
+			name = Release;
+		};
+		65CD0439230AD9530069F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartYoloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartYoloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartYolo;
+			};
+			name = Debug;
+		};
+		65CD043A230AD9530069F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartYoloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartYoloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartYolo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65CD0402230AD9520069F223 /* Build configuration list for PBXProject "SmartYolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CD0430230AD9530069F223 /* Debug */,
+				65CD0431230AD9530069F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65CD0432230AD9530069F223 /* Build configuration list for PBXNativeTarget "SmartYolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CD0433230AD9530069F223 /* Debug */,
+				65CD0434230AD9530069F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65CD0435230AD9530069F223 /* Build configuration list for PBXNativeTarget "SmartYoloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CD0436230AD9530069F223 /* Debug */,
+				65CD0437230AD9530069F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65CD0438230AD9530069F223 /* Build configuration list for PBXNativeTarget "SmartYoloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CD0439230AD9530069F223 /* Debug */,
+				65CD043A230AD9530069F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65CD0411230AD9520069F223 /* SmartYolo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65CD0412230AD9520069F223 /* SmartYolo.xcdatamodel */,
+			);
+			currentVersion = 65CD0412230AD9520069F223 /* SmartYolo.xcdatamodel */;
+			path = SmartYolo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65CD03FF230AD9520069F223 /* Project object */;
+}
